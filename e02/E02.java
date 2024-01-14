@@ -5,7 +5,7 @@ class E02 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Give a number:");
         int first = sc.nextInt();
-        System.out.println("Give another number:");
+        System.out.println("Give a number:");
         int second = sc.nextInt();
 
         System.out.println(String.format("%d + %d = %d", first, second, first + second));
