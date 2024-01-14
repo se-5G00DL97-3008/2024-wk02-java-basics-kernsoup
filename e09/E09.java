@@ -11,6 +11,7 @@ class E09 {
             total += number;
             counter += 1;
             System.out.println("Average: " + total / counter);
+            System.out.println("Give a number (-1 to quit):");
             number = sc.nextInt();
         }
     }
