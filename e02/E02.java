@@ -9,8 +9,8 @@ class E02 {
         int second = sc.nextInt();
 
         System.out.println(String.format("%d + %d = %d", first, second, first + second));
-        System.out.println(String.format("%d * %d = %d", first, second, first * second));
         System.out.println(String.format("%d - %d = %d", first, second, first - second));
+        System.out.println(String.format("%d x %d = %d", first, second, first * second));
         System.out.println(String.format("%d / %d = %d", first, second, first / second));
     }
 }
